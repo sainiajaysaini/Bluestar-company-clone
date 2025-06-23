@@ -1,0 +1,49 @@
+.topnav {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 1.0rem 1rem;
+  color: white;
+}
+
+/* Logo on the left */
+.logo {
+  padding: 0 200px; /* fixed size */
+}
+
+
+/* Links container takes full width and centers children */
+.links {
+  flex: 1;              /* take remaining space */
+  justify-content: center; /* center links horizontally */
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap; /* wrap if needed */
+}
+
+.links a {
+  color: rgb(36, 113, 164);
+  text-decoration: none;
+  padding: 0 0.3rem;
+  font-weight: 500;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+.links a:hover {
+  color: #00bcd4;
+}
+
+.links span {
+  color: rgb(59, 51, 51);
+  user-select: none;
+  padding: 0 0.2rem;
+}
+
+
+@media (max-width: 500px) {
+  .topnav {
+    display: none;
+ 
+  }
+}
