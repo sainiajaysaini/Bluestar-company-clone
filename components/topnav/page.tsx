@@ -5,24 +5,24 @@ const Topnav = () => {
   return (
     <div className={styles.topnav}>
       <div className={styles.logo}>
-       <img src="/logo.png" alt="logo" />
+       <a href="#"><img src="/logo.png" alt="logo" /></a>
       </div>
       <div className={styles.links}>
-        <a href="/linkpage">Locations</a>
+        <a href="/aboutpage">Locations</a>
         <span>/</span>
-        <a href="/linkpage">Dealers</a>
+        <a href="/aboutpage">Dealers</a>
         <span>/</span>
-        <a href="/linkpage">Dealership Request</a>
+        <a href="/aboutpage">Dealership Request</a>
         <span>/</span>
-        <a href="/linkpage">Careers</a>
+        <a href="/career">Careers</a>
         <span>/</span>
-        <a href="/linkpage">Contact Us</a>
+        <a href="/aboutpage">Contact Us</a>
         <span>/</span>
-        <a href="/linkpage">TVCs</a>
+        <a href="/aboutpage">TVCs</a>
         <span>/</span>
-        <a href="/linkpage">Consumers</a>
+        <a href="/aboutpage">Consumers</a>
         <span>/</span>
-        <a href="/linkpage">Resources</a>
+        <a href="/aboutpage">Resources</a>
       </div>
     </div>
   );

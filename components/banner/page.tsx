@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Style from '../../components/banner/banner.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
@@ -11,7 +12,10 @@ import 'swiper/css/pagination';
 const SwiperSlider: React.FC = () => {
   return (
     <div>
-      <div style={{ width: '100%', maxWidth: '100%', margin: '0 auto' }}  >
+      
+     <div className={Style.sliderWrapper}>
+
+      
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           navigation

@@ -1,0 +1,12 @@
+.sliderWrapper {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 6.5%;
+}
+
+/* 👉 Add 20% margin from top only on mobile */
+@media (max-width: 500px) {
+  .sliderWrapper {
+    margin-top: 10%;
+  }
+}
