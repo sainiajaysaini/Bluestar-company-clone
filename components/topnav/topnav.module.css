@@ -9,7 +9,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1100;        /* above other elements */
+  z-index: 900;        /* above other elements */
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* optional: soft shadow */
 }
 
