@@ -15,7 +15,7 @@ const Cards = () => {
     </div>
    
     <div className={Style.card}>
-      <img src="WATER-Purifier.jpg" alt="Air Purifier"/>
+      <img src="Water-Purifier.jpg" alt="Air Purifier"/>
       <div className={Style.content}>
         <h2>WATER PURIFIERS</h2>
         <p>Water purifiers ensure clean, safe, and great-tasting drinking water through advanced filtration systems.</p>
